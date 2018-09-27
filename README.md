@@ -10,7 +10,7 @@ This project is to analyze the current weather all over the world. We are suppos
 
 * There is no obvious dependence of cloudiness on latitude. Yet somehow there are several cloudiness values, 0, 20, 40, 78,97, are most crowded with citis all over the world, much more than other values.
 
-# more information about the project from the bootcamp. 
+# MORE about the project 
 ### Unit 6 | Assignment - What's the Weather Like?
 
 #### Background
