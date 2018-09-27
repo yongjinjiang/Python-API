@@ -1,6 +1,19 @@
-# Unit 6 | Assignment - What's the Weather Like?
+# SUMMARY:
+This project is to analyze the current weather all over the world. We are supposed to choose more than 500 cities with random latitude and longitude coordinates. Query the weather data from [OpenWeatherMap API](https://openweathermap.org/api), make some plots and draw some conclusions about the dependence of weather on the latitude value.
 
-## Background
+### Some  observations after weather data analysis are as follows:
+* From the weather data for 538 cities collectd today(09/25/2018), we conclude that temperature is peaked around 80 Fahrenheit near the equator from -20 to 30 degrees of Latitude. It continually drops to 30 Fahrenheit(even lower for several cities) in the region of 40 to 80 degree of latitude.
+
+* The humidity percentage has only weak dependence on the latitude. It takes smallest value around -20(Southern Hemisphere) and 20 latitude(Northern Hemisphere).
+
+* There is no obvious dependence of wind speed on latitude. The wind speed in general is from 0 mph to 15 mph.
+
+* There is no obvious dependence of cloudiness on latitude. Yet somehow there are several cloudiness values, 0, 20, 40, 78,97, are most crowded with citis all over the world, much more than other values.
+
+# MORE about the project 
+### Unit 6 | Assignment - What's the Weather Like?
+
+#### Background
 
 Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
 
@@ -10,7 +23,7 @@ But, if pressed, how would you **prove** it?
 
 ![Equator](Images/equatorsign.png)
 
-## WeatherPy
+#### WeatherPy
 
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
@@ -36,7 +49,7 @@ As final considerations:
 * You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
 * See [Example Solution](WeatherPy_Example.pdf) for a reference on expected format.
 
-## Hints and Considerations
+#### Hints and Considerations
 
 * You may want to start this assignment by refreshing yourself on the [geographic coordinate system](http://desktop.arcgis.com/en/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm).
 
@@ -50,6 +63,6 @@ As final considerations:
 
 * Lastly, remember -- this is a challenging activity. Push yourself! If you complete this task, then you can safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. Good luck!
 
-## Copyright
+#### Copyright
 
 Data Boot Camp © 2018. All Rights Reserved.
