@@ -1,7 +1,7 @@
 # SUMMARY:
-  ### This project is to analyze the current weather all over the world. We are supposed to choose more than 500 cities with random latitude and longitude coordinates. Query the weather data from [OpenWeatherMap API](https://openweathermap.org/api), make some plots and draw some conclusions about the dependence of weather on the latitude value.
+This project is to analyze the current weather all over the world. We are supposed to choose more than 500 cities with random latitude and longitude coordinates. Query the weather data from [OpenWeatherMap API](https://openweathermap.org/api), make some plots and draw some conclusions about the dependence of weather on the latitude value.
 
-# Some of my observations are as following:
+# Some  observations after weather data analysis are as follows:
 * From the weather data for 538 cities collectd today(09/25/2018), we conclude that temperature is peaked around 80 Fahrenheit near the equator from -20 to 30 degrees of Latitude. It continually drops to 30 Fahrenheit(even lower for several cities) in the region of 40 to 80 degree of latitude.
 
 * The humidity percentage has only weak dependence on the latitude. It takes smallest value around -20(Southern Hemisphere) and 20 latitude(Northern Hemisphere).
