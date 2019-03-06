@@ -1,3 +1,9 @@
+## About
+   - This is the homework project for unit 6(Python-APIs) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/).
+   - The result of this project will be fed to the [web visualization dashboard](https://github.com/yongjinjiang/Web-visualization-dashboard/edit/master/README.md) for unit 12.
+
+
+## **_The original text of the homework assignment:_** 
 # SUMMARY:
 This project is to analyze the current weather all over the world. We are supposed to choose more than 500 cities with random latitude and longitude coordinates. Query the weather data from [OpenWeatherMap API](https://openweathermap.org/api), make some plots and draw some conclusions about the dependence of weather on the latitude value.
 
