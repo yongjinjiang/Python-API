@@ -1,6 +1,7 @@
 ## About
    - This is the homework project for unit 6(Python-APIs) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/).
-   - The result of this project will be fed to the [web visualization dashboard](https://github.com/yongjinjiang/Web-visualization-dashboard/edit/master/README.md) for unit 12.
+   - The result of this project will be fed to the [web visualization dashboard](https://github.com/yongjinjiang/Web-visualization-dashboard/edit/master/README.md) for unit 12(web).
+   - Tools used in this project: [openweathermap API](https://openweathermap.org/api), matplotlib, pandas.
 
 
 ## **_The original text of the homework assignment:_** 
